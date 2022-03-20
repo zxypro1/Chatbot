@@ -11,7 +11,7 @@ def tokenize(sentence):
 
 
 def stem(word):
-    stemmer.stem(word.lower())
+    return stemmer.stem(word.lower())
 
 
 def bag_of_words(tokenized_sentence, words):
